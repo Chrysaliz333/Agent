@@ -1,0 +1,2 @@
+Create ontology classes for: Contract Amendment; Side Letter.
+Provide genus–differentia logical definitions, clear labels, and common synonyms.
