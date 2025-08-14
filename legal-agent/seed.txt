@@ -1,2 +1,14 @@
-Create ontology classes for: Contract Amendment; Side Letter.
-Provide genus–differentia logical definitions, clear labels, and common synonyms.
+zsh
+cd /Users/liz/Documents/GitHub/Agent/legal-agent
+
+cat > seed.txt <<'EOF'
+label: Contract Amendment
+definition: A legal instrument that modifies an existing contract by adding, removing, or altering terms.
+synonyms: amendment; addendum; contract modification
+subclass_of: Contract
+---
+label: Side Letter
+definition: An auxiliary agreement that clarifies or adjusts terms of a main contract without replacing it.
+synonyms: side agreement; side letter agreement
+subclass_of: Contract
+EOF

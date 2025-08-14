@@ -1,0 +1,11 @@
+# macOS & editor
+.DS_Store
+
+# LiteLLM cache
+legal-agent/.litellm_cache/
+legal-agent/.litellm_cache/*.db*
+legal-agent/.litellm_cache/cache.*
+
+# Builds and logs
+legal-agent/build/
+legal-agent/logs/
